@@ -268,12 +268,6 @@ const object = [
     },
   },
 ];
-"button id = add_btn"
-document.querySelectorAll(".add_btn").forEach(a =>{
-    a.addEventListener("click", ()=>{
-
-    })
-})
 object.map((x, key) => {
   const new_card = document.createElement("div");
   new_card.classList.add("card");
